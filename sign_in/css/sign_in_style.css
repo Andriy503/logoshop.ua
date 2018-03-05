@@ -1,0 +1,126 @@
+body{
+	background: url('../img/font.jpg');
+}
+
+a{
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 450px;
+	background-color: rgba(24,33,52, 0.7);
+	margin: 110px auto 0 auto;
+	text-align: center;
+	box-shadow: 0 -5px 0 #3adbfd;
+	border-radius: 0 0 10px 10px;
+	padding-bottom: 30px; 
+}
+
+.wrapper img{
+	width: 120px;
+	height: 120px;
+	margin: -60px 0 30px 0;
+	border: 5px solid #1a394f;
+	border-radius: 50%;
+}
+input[type ='text'], input[type='password']{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	padding-left: 48px;
+} 
+
+.dw-submit{
+	padding: 13px 58px;
+	margin: -10px 0 20px 0;
+	font-size: 15px;
+	color: #fff;
+	background-color: #2ca8c6;
+	border: none;
+	border-bottom: 4px solid #6ee9fd;
+	cursor: pointer;
+}
+
+.dw-submit:hover {
+	transition: all 0.5s;
+	background: #fff;
+	color: #2c536c;
+}
+
+.dw-input::before{
+	font-family: "FontAwesome";
+	content: "\f007";
+	position: absolute;
+	font-size: 30px;
+	padding: 13px 0 0 15px; 
+	color: #2c536c;
+}
+
+.dw-input:nth-child(2)::before{
+	content: "\f023";
+}
+
+.dw-input:hover::before{
+	color: #319ebc;
+	transition: all 0.3s;
+}
+
+.dw-input input:hover {
+	box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.9);
+}
+
+.socila{
+	padding-top: 10px;
+}
+
+
+.socila i{
+	color: #fff;
+	font-size: 20px;
+	width: 20px;
+	padding: 10px;
+}
+
+
+.socila i:hover{
+	background-color: #fff;
+	color: #1a394f;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#edit_1{
+	color: #2c536c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

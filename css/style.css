@@ -1,0 +1,210 @@
+nav > a > i {
+	position: absolute;
+	margin-left: -25px;
+}
+
+
+/*Стилі для контенту і для правого блоку filters*/
+#block_content {
+	float: left;
+	width: 80.5%;
+	height: auto;
+}
+
+#block_category_filter {
+	float: right;
+	width: 19%;
+	height: auto;
+}
+
+.header_title {
+	width: auto;
+	font: 14px sans-serif;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 0px;
+	padding: 7px 0px 7px 10px;
+	background: linear-gradient(to top, #DE2B3D, #EC6550);
+	color: white;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+}
+
+li {
+    list-style-type: none; /* Забирпємо маркери */
+}
+
+#block_category > ul > li {
+	border-bottom: 1px solid #999999;
+}
+
+#block_category > ul > li > a{
+	font-family:'Roboto Slab', serif;
+	padding: 6px 0px 6px 30px;
+	display: block;
+}
+
+#block_category > ul > li > a:hover {
+	background: linear-gradient(to top, #f47777, #f25757);
+	color: white;
+}
+
+/*img category*/
+.phone_img {
+	position: absolute;
+	margin-left: -26px;
+	margin-top: -3px;
+}
+
+.air_img {
+	position: absolute;
+	margin-left: -26px;
+	margin-top: -3px;
+}
+
+.notebook_img {
+	position: absolute;
+	margin-left: -26px;
+	margin-top: -3px;
+}
+/**/
+.pod_category {
+	margin-left: 25px;
+	margin-bottom: 5px;
+}
+
+.pod_category > li {
+	margin-top: 3px;
+}
+
+.pod_category > li> a {
+	font-size: 15px sans-serif;
+	color: #6b6c6d;
+}
+
+.pod_category > li> a:hover{
+	color: #ff3f00;
+	font-weight: bold;
+	text-decoration: underline;
+}	
+
+/*Стилі для блоку фільтрів пошуку*/
+#params_filters {
+	margin: 10px 0 30px 0;
+	height: auto;
+}
+
+.title_filter {
+	font: bold 14px sans-serif;
+	margin: 0px 0 10px 0;
+}
+
+#block_input_price > ul > li{
+	float: left;
+	margin-left: 10px;
+}
+
+#block_input_price > ul > li> input{
+	width: 60px;
+	height: 20px;
+	font: 14px sans-serif;
+	border: 1px solid #DCDCDC;
+	padding-left: 3px;
+	margin-bottom: 10px;
+}
+
+#block_input_price > ul > li> p{
+	font: 14px sans-serif;
+	float: left;
+	margin-top: 0px;
+	padding-top: 2px;
+}
+
+/*track_bar*/
+#params_filters > form > #track_bar {
+	height: 20px;
+	border: 1px solid;
+	clear: both;
+}
+/**/
+
+.title_filter {
+	margin-top: 10px;
+	
+}
+
+.check_box_brand >  li {
+	font: 14px sans-serif;
+	margin: 3px 0 0 15px;
+}
+
+.check_box_brand > li > input {
+	margin-right: 5px;
+	background: #ddd;
+	border-radius: 100%;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+
+.check_box_brand > li > input:hover {
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.9);
+}
+
+/*send_filters*/
+#send_filters_search {
+	margin-right: 1%;
+	margin-top: 15px;
+	border: none;
+	padding: 5px 9px;
+	font-size: 0.9em;
+	background-color: rgba(236, 101, 80, 1);
+	text-shadow: #454545 0 0 2px;
+	border-bottom: 4px solid rgba(217, 91, 72, 1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#send_filters_search:hover {
+	background-color: rgba(8, 123, 211, 1);
+	border-bottom: 4px solid rgba(0, 83, 147, 1);
+	cursor: pointer;
+
+}
+
+/*Стрилі для блока з новинами*/
+.block_news {
+	height: auto;
+}
+
+.new_sticker {
+	border-top: 1px solid #999;
+}
+
+.new_sticker > ul > li > p {
+	font: 14px sans-serif;
+	margin: 5px 0 5px 0;
+}
+
+.new_sticker > ul > li {
+	border-bottom: 1px solid #999;
+	padding: 15px 0;
+}
+
+.new_sticker > ul > li > a {
+	color: linear-gradient(to top, #f47777, #f25757);
+	font: bold 14px sans-serif;
+}
+
+.new_sticker > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+.new_sticker > ul > li > span {
+	font: 13px sans-serif;
+	padding-bottom: 5px;
+	color: #6c6e70;
+	display: block;
+}
+
+.drop_up, .drop_down:hover {
+	cursor: pointer;
+}
