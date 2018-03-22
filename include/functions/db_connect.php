@@ -19,9 +19,6 @@
 				die();
 			}
 		}
-		function lol() {
-			
-		}
 	}
 	new App();
 ?>
