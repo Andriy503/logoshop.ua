@@ -26,8 +26,9 @@
 		echo "Помилка на сервері повторіть пізніше!";
 	}
 	
-	function test($test) {
+	function test($test ) {
 
 	}
 	
 ?>
+
