@@ -12,7 +12,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="sign_in/css/sign_in_style.css">
 	<link rel="stylesheet" type="text/css" href="sign_in/css/font-awesome.css">
-	<link rel="shortcut icon" type="image/x-icon" href="img/street.png"/>
+	<link rel="shortcut icon" type="image/x-icon" href="sign_in/img/sign_in.png"/>
 </head>
 <body>
 	<div class="wrapper">
@@ -27,7 +27,8 @@
 			<br>
 			<input type="submit" name="send-user" value="Вхід" class="dw-submit">
 			<br>
-			<a href="sign_in/registration.php">Реєстрація</a>
+			<a href="/registration.php">Реєстрація</a><br>
+			<a href="/">Повернутись</a>
 	</form>
 	<div class="socila">
 		<i class="fa fa-vk" aria-hidden="true"></i>

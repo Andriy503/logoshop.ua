@@ -3,6 +3,7 @@
 	class Connect {
 		static $connect;
 		static $sql;
+		static $name = "category";
 	}
 
 	class App {

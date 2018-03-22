@@ -57,6 +57,7 @@
 	height: 108px;
 	background-color: white;
 	display: none;
+	z-index: 999;
 }
 
 #sorting_list > li {
@@ -68,9 +69,9 @@
 	text-decoration: underline;
 }
 
-/*Стилів  для телефонів*/
+/*Стилів  для телефонів GRID*/
 #block_tovar_grid > li{
-	margin-left: 15px;
+	margin-left: 21px;
 	/*border: 1px solid;*/
 	width: 340px;
 	height: 280px;
@@ -89,4 +90,171 @@
 .block_img_grid {
 	float: left;
 	width: auto;
+	margin-right: 10px;
 }
+
+.block_revies_count_grid {
+	height: 20px;
+}
+
+.block_revies_count_grid > li {
+	color: #343434;
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+
+.block_revies_count_grid > li > p {
+	margin-left: 25px;
+	font: 13px sans-serif;
+	margin-top: 5px;
+}
+
+.block_revies_count_grid > li > i {
+	position: absolute;
+}
+
+.block_price_grid {
+	font-family: 'Roboto Slab', serif;
+	font-size: 23px;
+	margin-top: 13px;
+	color: #343434;
+}
+
+.add_basket  {
+	height: 40px;
+	width: 60px;
+	display: block;
+	cursor: pointer;
+	float: left;		
+	margin-top: 10px;
+	margin-left: -84px;
+	border-radius: 2px;
+	background: url(../images/shopping_basket.png) no-repeat;
+}
+
+.add_basket:hover {
+	transition-duration: 0.4s;
+	background: url("../images/shopping_basket_hover.png") no-repeat;
+}
+
+.block_mini_features_grid  {
+	margin-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+}
+
+/*Стилів  для телефонів LIST*/
+.block_img_list {
+	float: left;
+	margin-right: 15px;
+	min-height: 160px;
+	height: auto;
+}
+
+#block_tovar_list {
+	display: none;
+}
+
+#block_tovar_list > li {
+	border-bottom: 1px solid #999;	
+	float: left;
+	min-height: 160px;
+	height: auto;
+	margin-top: 15px;
+	padding-bottom: 5px;
+	margin-left: 20px;
+}
+
+.block_revies_count_list {
+	position: absolute;
+	margin-left: 970px;
+}
+
+.block_revies_count_list > li{
+	color: #343434;
+	float: left;
+	margin-left: 10px;
+}
+
+.block_revies_count_list > li > p {
+	margin-left: 25px;
+	margin-top: -23px;
+	font: 13px sans-serif;
+}
+
+.block_name_list > a {
+	font: bold 18px sans-serif;
+}
+
+.block_name_list > a:hover {
+	text-decoration: underline;
+}
+
+.add_basket_list  {
+	height: 40px;
+	width: 60px;
+	display: block;
+	cursor: pointer;
+	float: left;		
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 2px;
+	background: url(../images/shopping_basket.png) no-repeat;
+}
+
+.add_basket_list:hover {
+	transition-duration: 0.4s;
+	background: url("../images/shopping_basket_hover.png") no-repeat;
+}
+
+.block_price_list {
+	font-family: 'Roboto Slab', serif;
+	font-size: 23px;
+	color: #343434;
+	margin-top: 10px;
+}
+
+.block_mini_features_list {
+	margin-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+
+.not_found {
+	color: red;
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	margin-left: 226px;
+}
+
+.not_found2 {
+	color: red;
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+.cls {
+	background-color: #e83b20;
+	color: white;
+	margin-left: 10px;
+	padding: 10px;	
+	float: left;
+
+}
+
+.cls:hover {
+	background-color: #e22c0f;
+	color: black;
+}
+
+#different_pages_navigates {
+	background-color: #e22c0f;
+	color: black;
+}
+
+#main_page_nav {
+	background-color: #e22c0f;
+	color: black;
+}	

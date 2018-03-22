@@ -27,14 +27,17 @@ a:hover {
 	border: 5px solid #1a394f;
 	border-radius: 50%;
 }
+
 input[type ='text'], input[type='password']{
-	width: 300px;
-	height: 50px;
+	width: 200px;
+	height: 30px;
 	font-size: 18px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	border-radius: 4px;
 	padding-left: 48px;
-} 
+	color: #2c536c;
+	margin-right: 10px;
+}
 
 .dw-submit{
 	padding: 13px 58px;
@@ -57,13 +60,35 @@ input[type ='text'], input[type='password']{
 	font-family: "FontAwesome";
 	content: "\f007";
 	position: absolute;
-	font-size: 30px;
-	padding: 13px 0 0 15px; 
+	font-size: 25px;
+	padding: 7px 0 0 15px; 
 	color: #2c536c;
+
+
 }
 
 .dw-input:nth-child(2)::before{
 	content: "\f023";
+}
+
+.dw-input:nth-child(3)::before{
+	content: "\f2b9";
+}
+
+.dw-input:nth-child(4)::before{
+	content: "\f270";
+}
+
+.dw-input:nth-child(5)::before{
+	content: "\f095";
+}
+
+.dw-input:nth-child(6)::before{
+	content: "\f041";
+}
+
+.dw-input:nth-child(7)::before{
+	content: "\f13e";
 }
 
 .dw-input:hover::before{
@@ -79,14 +104,12 @@ input[type ='text'], input[type='password']{
 	padding-top: 10px;
 }
 
-
 .socila i{
 	color: #fff;
 	font-size: 20px;
 	width: 20px;
 	padding: 10px;
 }
-
 
 .socila i:hover{
 	background-color: #fff;
@@ -97,4 +120,23 @@ input[type ='text'], input[type='password']{
 
 #edit_1{
 	color: #2c536c;
+}
+
+.sign_up_text_log {
+	position: absolute;
+	left: 600px;
+	top: 140px;
+	font-size: 36px;
+	color: #48B9D7;
+}
+
+.first_input {
+	padding-top: 15px;
+}
+
+#reg_message {
+	padding: 10px;
+	background: url('../img/font.jpg');
+	color: white;
+	display: none;
 }

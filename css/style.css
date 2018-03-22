@@ -49,6 +49,10 @@ li {
 	color: white;
 }
 
+#block_category > ul > li > a.active {
+	background-color: #EEE;
+}
+
 /*img category*/
 .phone_img {
 	position: absolute;
@@ -71,6 +75,7 @@ li {
 .pod_category {
 	margin-left: 25px;
 	margin-bottom: 5px;
+	display: none;
 }
 
 .pod_category > li {
@@ -86,7 +91,7 @@ li {
 	color: #ff3f00;
 	font-weight: bold;
 	text-decoration: underline;
-}	
+}
 
 /*Стилі для блоку фільтрів пошуку*/
 #params_filters {
@@ -110,7 +115,7 @@ li {
 	font: 14px sans-serif;
 	border: 1px solid #DCDCDC;
 	padding-left: 3px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 #block_input_price > ul > li> p{
@@ -122,8 +127,9 @@ li {
 
 /*track_bar*/
 #params_filters > form > #track_bar {
-	height: 20px;
-	border: 1px solid;
+	height: 40px;
+	width: 220px;
+	margin-left: 30px;
 	clear: both;
 }
 /**/
