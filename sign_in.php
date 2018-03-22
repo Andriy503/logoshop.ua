@@ -29,7 +29,6 @@
 			<br>
 			<a href="/registration.php">Реєстрація</a><br>
 			<a href="/">Повернутись</a>
-			<a href="/">Повернутись тестовий</a>
 	</form>
 	<div class="socila">
 		<i class="fa fa-vk" aria-hidden="true"></i>
