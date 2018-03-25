@@ -86,6 +86,7 @@
 			},
 
 			phone: {
+				minlength: 4,
 				maxlength: 15,
 				digits: true
 			},
@@ -124,6 +125,7 @@
 
 			phone: {
 				digits: "введіть коректно номер",
+				minlength: "поле закоротке!",
 				maxlength: "поле задовге!"
 			},
 
@@ -136,13 +138,18 @@
 		submitHandler: function(form) {
 			$(form).ajaxSubmit({
 				success: function(data){
-					if(data == 'true'){
-						$("#block_form_registration").fadeOut(300, function() {
-							$("#reg_message").addClass("reg_message_good").fadeIn(400).html("Ви успішно зареєстувались!");
-						});
-					} else {
-						$("#reg_message").addClass("reg_message_error").fadeIn(400).html(data);
-					}
+					
+					// if(data == "true"){
+					// 	$("#block_form_registration").fadeOut(300, function() {
+					// 		$("#reg_message").addClass("reg_message_good").fadeIn(400).html("Ви успішно зареєстувались!");
+					// 	});
+					// } else {
+					// 	$("#reg_message").addClass("reg_message_error").fadeIn(400).html(data);
+					// }
+
+					$("#block_form_registration").fadeOut(300, function() {
+						$("#reg_message").addClass("reg_message_good").fadeIn(400).html("Ви успішно зареєстувались!");
+					});
 				}
 			});
 		}

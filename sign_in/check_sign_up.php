@@ -1,10 +1,10 @@
 <?php 
-	$login = $_POST['login'];
-	$password = md5($_POST['password']);
-	$name = $_POST['name'];
-	$surname = $_POST['sirname'];
-	$phone = $_POST['phone'];
-	$adress = $_POST['adress'];
+	$login = trim($_POST['login']);
+	$password = trim(md5($_POST['password']));
+	$name = trim($_POST['name']);
+	$surname = trim($_POST['sirname']);
+	$phone = trim($_POST['phone']);
+	$adress = trim($_POST['adress']);
 
 	$ip = $_SERVER['REMOTE_ADDR'];
 

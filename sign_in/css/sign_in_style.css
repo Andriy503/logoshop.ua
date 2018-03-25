@@ -27,14 +27,23 @@ a:hover {
 	border: 5px solid #1a394f;
 	border-radius: 50%;
 }
-input[type ='text'], input[type='password']{
+input[type ='text']{
 	width: 300px;
 	height: 50px;
 	font-size: 18px;
-	margin-bottom: 25px;
 	border-radius: 4px;
 	padding-left: 48px;
-} 
+}
+
+input[type='password'] {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	border-radius: 4px;
+	padding-left: 48px;
+	margin-top: 15px;
+	color: #2c536c;
+}
 
 .dw-submit{
 	padding: 13px 58px;
@@ -64,6 +73,7 @@ input[type ='text'], input[type='password']{
 
 .dw-input:nth-child(2)::before{
 	content: "\f023";
+	margin-top: 15px;
 }
 
 .dw-input:hover::before{
@@ -97,4 +107,14 @@ input[type ='text'], input[type='password']{
 
 #edit_1{
 	color: #2c536c;
+}
+
+.login_in {
+	font-weight: bold;
+	color: #ea3204;
+}
+
+.in_message {
+	color: #ea3204;
+	font-weight: bold;
 }
