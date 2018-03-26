@@ -18,6 +18,7 @@
 <body>
 	<div class="wrapper">
 	<img src="../sign_in/img/men.png">
+	<!--  -->
 	<p class="sign_up_text_log"><strong>Профіль <span class="profile_name">(<?php echo $_SESSION['auth_name']; ?>)</span></strong></p>
 	
 		<form action="sign_in/setting_api.php" method="post" id="form_reg">
