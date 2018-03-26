@@ -79,6 +79,30 @@ $(document).ready(function () {
 		$('#block_category > ul > li > #'+$.cookie('select_cat')).addClass('active').next().show();
 	}
 
+	$("#auth_user_info").toggle(function() {
+		$("#block_user").fadeIn(400);
+	}, function() {
+		$("#block_user").fadeOut(400);
+	});
+
+	// ajax запит на вихід із акаунта
+	$(".logout").click(function() {
+		$.ajax({
+			type: "POST",
+			url: "include/functions/sign_in_close_session.php",
+			dataType: "html",
+			cache: false,
+			success: function(data) {
+				if(data == "logout"){
+					location.reload();
+				}
+			}
+		});
+	});
+	
+	$(".setting").click(function() {
+		window.location.replace("http://logoshop.ua/setting.php");
+	});
 
 });
 

@@ -258,3 +258,27 @@
 	background-color: #e22c0f;
 	color: black;
 }	
+
+#auth_user_info {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-top: 12px;
+	margin-right: 20px;
+	float: right;
+	margin-left: 5px;
+}
+
+#auth_user_info:hover {
+	color: #E54947;
+	cursor: pointer;
+	border-bottom: 1px dashed #E54947;
+}
+
+.logo_sign_in{
+	margin-top: 5px;
+}
+
+.logo_sign_in:hover {
+	cursor: pointer;
+}

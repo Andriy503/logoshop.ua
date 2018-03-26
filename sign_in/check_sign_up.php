@@ -8,10 +8,6 @@
 
 	$ip = $_SERVER['REMOTE_ADDR'];
 
-	if($phone == ""){
-		$phone = 0;
-	}
-
 	$connect = new PDO("mysql:host=localhost;dbname=db_logoshop", "root", "");
 	$sql = $connect->prepare(" INSERT INTO `users` (`login`, `password`, `name`, `surname`, `phone`, `address`, `datetime`, `ip`) VALUES ('".$login."', '".$password."', '".$name."', '".$surname."', ".$phone.", '".$adress."', NOW(), '".$ip."' ) ");
 	$sql->execute();

@@ -1,5 +1,6 @@
 <?php 
-
+// перевірка на авторизацію користувача
+	session_start();
 	include("include/functions/db_connect.php");
 
 // GET запит на вибірку по моделях

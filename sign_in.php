@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -77,10 +80,10 @@
 				success: function(data){
 
 					if(data == "true"){
-						alert("Вхід виконано");
-						$(".in_message").hide();
-						$("#edit_1").css({ "borderColor": "#2c536c", "color": "#2c536c" });
-						$("#password").css({ "borderColor": "#2c536c", "color": "#2c536c" });
+						// $(".in_message").hide();
+						// $("#edit_1").css({ "borderColor": "#2c536c", "color": "#2c536c" });
+						// $("#password").css({ "borderColor": "#2c536c", "color": "#2c536c" });
+						window.location.replace("/");
 					} else {
 						$(".in_message").slideDown(400).html("Неправильний логін або пароль!");
 						$("#edit_1").css({ "borderColor": "#ff0000", "color": "#ff0000" });

@@ -68,7 +68,7 @@ input[type ='text'], input[type='password']{
 }
 
 .dw-input:nth-child(2)::before{
-	content: "\f023";
+	content: "\f2bd";
 }
 
 .dw-input:nth-child(3)::before{
@@ -80,15 +80,7 @@ input[type ='text'], input[type='password']{
 }
 
 .dw-input:nth-child(5)::before{
-	content: "\f095";
-}
-
-.dw-input:nth-child(6)::before{
-	content: "\f041";
-}
-
-.dw-input:nth-child(7)::before{
-	content: "\f13e";
+	content: "\f2bb";
 }
 
 .dw-input:hover::before{
